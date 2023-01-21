@@ -1,14 +1,12 @@
 :root {
---background:	#292d3e;
+--background:	#EAE7DC;
 --foreground:	#959dcb;
---comment:	#676e95;
---accent:	#c3e88d;
+--comment:	#E98074;
+--accent:	#E85A4F;
 --redish:	#ff5370;
 --orangish:	#f78c6c;
 --yellowish:	#ffcb6b;
---greenish:	#c3e88d;
---bluish:	#82aaff;
---purplish:	#c792ea;
+--maroonish:	#662a26;
 }
 
 body {
@@ -53,7 +51,7 @@ body {
 }
 
 #addBtn:hover {
-    background-color: var(--purplish);
+    background-color: var(--maroonish);
 }
 
 #groceryList {
@@ -67,7 +65,7 @@ body {
 }
 
 .groceryItem {
-    background-color: white;
+    background-color: #E85A4F;
     color: var(--background);
     margin: 0.5em;
     width: 24em;
@@ -78,6 +76,6 @@ body {
 }
 
 .groceryItem:hover {
-    background-color: var(--purplish);
+    background-color: var(--maroonish);
     font-weight: bold;   
 }
